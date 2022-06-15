@@ -9,9 +9,8 @@ export default defineConfig({
             name: 'karen233',
             fileName: s => `karen233.${s}.js`,
         },
-        minify: false,
         rollupOptions: {
-            external: ['react', 'react-dom'],
+            external: ['react'],
         },
     },
 });
