@@ -1,0 +1,34 @@
+{
+  "name": "karen233",
+  "version": "0.0.1",
+  "description": "A react lib.",
+  "main": "./dist/karen233.es.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "build": "vite build && tsc"
+  },
+  "keywords": [],
+  "author": "herohi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@types/react": "^18.0.12",
+    "@vitejs/plugin-react": "^1.3.2",
+    "asmosi": "^1.0.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.12"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,vue}": "eslint"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.3"
+  }
+}

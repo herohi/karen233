@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "useDefineForClassFields": true,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react-jsx",
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "emitDeclarationOnly": true
+    },
+    "include": ["./src"]
+}
